@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "The Blog Title"
-theme = "tale-hugo"
+theme = "tale"
 
