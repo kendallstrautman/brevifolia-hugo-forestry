@@ -3,6 +3,7 @@
     border-bottom: 2px solid $default-color;
     display: block;
     padding: 1.5rem;
+    
   }
   &-time {
     font-size: 1.5rem;
@@ -12,6 +13,9 @@
   }
   &-title {
     margin-bottom: 1rem;
+  }
+  &-summary {
+    margin-bottom: 0;
   }
 }
 

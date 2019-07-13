@@ -2,7 +2,7 @@
     <div>
         <h1 class="catalogue-title">{{ .Title }}</h1>
         <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
-        <p>
+        <p class="catalogue-summary">
             {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
         </p>
     </div>

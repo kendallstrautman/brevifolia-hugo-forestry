@@ -694,7 +694,8 @@ pre code {
     user-select: none; }
 
 .post {
-  padding: 3rem 0; }
+  padding: 1.5rem;
+  max-width: 900px; }
   .post-info {
     color: #aaa;
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
@@ -1069,6 +1070,9 @@ pre code {
 
 .catalogue-title {
   margin-bottom: 1rem; }
+
+.catalogue-summary {
+  margin-bottom: 0; }
 
 @media (min-width: 768px) {
   .catalogue {
