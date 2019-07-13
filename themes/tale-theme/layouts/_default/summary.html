@@ -1,11 +1,9 @@
 <a href="{{ .Permalink }}" class="catalogue-item">
     <div>
-        <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
         <h1 class="catalogue-title">{{ .Title }}</h1>
-        <div class="catalogue-line"></div>
-
+        <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
         <p>
-            {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{ .Summary }}{{ end }}
+            {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
         </p>
     </div>
 </a>

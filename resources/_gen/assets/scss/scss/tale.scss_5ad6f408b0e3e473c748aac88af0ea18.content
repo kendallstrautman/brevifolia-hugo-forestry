@@ -621,18 +621,11 @@ pre tt:after {
 
 html,
 body {
-  color: #555;
-  background-color: #fff;
   margin: 0;
-  padding: 0; }
-
-html {
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  overflow-y: scroll; }
-  @media (min-width: 600px) {
-    html {
-      font-size: 16px; } }
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  overflow-x: hidden;
+  color: #000; }
 
 body {
   -webkit-text-size-adjust: 100%; }
@@ -643,32 +636,25 @@ h3,
 h4,
 h5,
 h6 {
-  color: #353535;
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  line-height: normal; }
+  color: #000;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.3; }
+
+p {
+  font-size: 1.075rem; }
 
 a {
-  color: #4a9ae1;
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
-blockquote {
-  border-left: 0.25rem solid #e5e5e5;
-  color: #979797;
-  margin: .8rem 0;
-  padding: .5rem 1rem; }
-  blockquote p:last-child {
-    margin-bottom: 0; }
-  @media (min-width: 600px) {
-    blockquote {
-      padding: 0 5rem 0 1.25rem; } }
+a:hover {
+  text-decoration: line-through;
+  text-decoration-color: inherit; }
 
-img {
-  display: block;
-  margin: 0 0 1rem;
-  max-width: 100%; }
-
-td {
-  vertical-align: top; }
+ul {
+  list-style: none;
+  margin: 0; }
 
 pre,
 code {
@@ -1003,7 +989,7 @@ pre code {
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
   width: 80%; }
 
 .nav {
@@ -1014,35 +1000,14 @@ pre code {
     justify-content: space-between;
     align-items: center; }
   .nav-title {
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    color: #555;
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem; }
-    .nav-title:hover, .nav-title:focus {
-      opacity: .6; }
-  .nav ul {
-    list-style-type: none;
-    margin: 1rem 0 0;
-    padding: 0;
-    text-align: center; }
+    margin: 0; }
   .nav li {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    color: #555;
-    display: inline-block;
-    opacity: .6;
-    padding: 0 2rem 0 0; }
-    .nav li:last-child {
-      padding-right: 0; }
-    .nav li:hover, .nav li:focus {
-      opacity: 1; }
-  .nav a {
-    color: #555;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; }
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0; }
 
 @media (min-width: 600px) {
   .nav-container {
@@ -1051,14 +1016,6 @@ pre code {
     bottom: 0;
     position: absolute;
     right: 0; } }
-
-footer {
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-  padding: 2rem 0;
-  text-align: center; }
-  footer span {
-    color: #555;
-    font-size: .8rem; }
 
 .pagination {
   border-top: 0.5px solid #e5e5e5;
@@ -1073,7 +1030,7 @@ footer {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
+    color: #000;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     opacity: .6; }
@@ -1083,7 +1040,7 @@ footer {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
+    color: #000;
     position: absolute; }
     .pagination .arrow:hover, .pagination .arrow:focus {
       opacity: .6;
@@ -1094,28 +1051,18 @@ footer {
     right: 0; }
 
 .catalogue-item {
-  border-bottom: 1px solid #e5e5e5;
-  color: #555;
+  border-bottom: 2px solid #000;
   display: block;
-  padding: 2rem 0; }
-  .catalogue-item:hover .catalogue-line,
-  .catalogue-item:focus .catalogue-line {
-    width: 5rem; }
-  .catalogue-item:last-child {
-    border: 0; }
+  padding: 1.5rem; }
 
 .catalogue-time {
-  color: #aaa;
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-  letter-spacing: .5px; }
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1rem; }
 
 .catalogue-title {
-  color: #353535;
-  display: block;
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  margin: .5rem 0; }
+  margin-bottom: 1rem; }
 
 .catalogue-line {
   -webkit-transition: all 0.3s ease-out;
