@@ -4,23 +4,14 @@
   width: 80%;
 }
 
-main,
-footer,
-.nav-container {
-  display: block;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
-
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
-  overflow: auto;
+  border-bottom: 2px solid #000;
+  padding: 1.5rem;
 
   &-container {
-    margin: 1rem auto;
-    position: relative;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &-title {
