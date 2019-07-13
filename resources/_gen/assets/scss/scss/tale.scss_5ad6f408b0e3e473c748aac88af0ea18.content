@@ -1070,12 +1070,9 @@ pre code {
 .catalogue-title {
   margin-bottom: 1rem; }
 
-.catalogue-line {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  border-top: 0.2rem solid #353535;
-  display: block;
-  width: 2rem; }
+@media (min-width: 768px) {
+  .catalogue {
+    width: 65vw;
+    margin-left: 35vw; } }
 
 /*# sourceMappingURL=style.css.map */
