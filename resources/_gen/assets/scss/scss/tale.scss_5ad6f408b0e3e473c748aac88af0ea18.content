@@ -731,50 +731,56 @@ pre code {
     -moz-user-select: none;
     user-select: none; }
 
-.post {
-  padding: 1.5rem;
-  max-width: 900px; }
-  .post-info {
-    color: #aaa;
-    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-    letter-spacing: 0.5px;
-    text-align: center; }
-    .post-info span {
-      font-style: italic; }
-  .post-title {
-    color: #353535;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 4rem;
-    margin: 1rem 0;
-    text-align: center; }
-  .post-line {
-    border-top: 0.4rem solid #353535;
-    display: block;
-    margin: 0 auto 3rem;
-    width: 4rem; }
-  .post p {
-    margin: 0 0 1rem;
-    text-align: justify; }
-  .post a:hover {
-    text-decoration: underline; }
-  .post img {
-    margin: 0 auto 0.5rem; }
-  .post img + em {
-    color: #aaa;
-    display: block;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 0.9rem;
-    font-style: normal;
-    text-align: center; }
-  .post img.emoji {
-    display: inline-block;
-    left: 0;
-    transform: none;
-    width: 1rem;
-    height: 1rem;
-    vertical-align: text-top;
-    padding: 0;
+.post-hero {
+  width: 100%;
+  margin: 0; }
+  .post-hero img {
+    object-fit: cover;
     margin: 0; }
+
+.post__all-info {
+  padding: 1.5rem 1.25rem;
+  text-align: center; }
+  .post__all-info h1, .post__all-info h3 {
+    margin: 0; }
+  .post__all-info h1 {
+    margin-bottom: .66rem; }
+
+.post-title {
+  margin: 1rem 0;
+  text-align: center; }
+
+.post p {
+  padding: 0 1.25rem; }
+
+.post p:last-child {
+  margin-bottom: 0; }
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.25rem; }
+  .post__footer h2 {
+    margin-bottom: 0; }
+
+.post a:hover {
+  text-decoration: underline; }
+
+.post img.emoji {
+  display: inline-block;
+  left: 0;
+  transform: none;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-top;
+  padding: 0;
+  margin: 0; }
+
+@media (min-width: 768px) {
+  .post {
+    width: 70vw;
+    margin-left: 30vw; } }
 
 .highlight .hll {
   background-color: #ffc; }
@@ -1060,38 +1066,36 @@ pre code {
       flex-direction: column;
       align-items: flex-start; } }
 
-.pagination {
-  border-top: 0.5px solid #464646;
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-  padding-top: 2rem;
-  position: relative;
-  text-align: center; }
-  .pagination span {
-    color: #353535;
-    font-size: 1.1rem; }
-  .pagination .top {
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    color: #000;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 1.1rem;
-    opacity: .6; }
-    .pagination .top:hover {
-      opacity: 1; }
-  .pagination .arrow {
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    color: #000;
-    position: absolute; }
-    .pagination .arrow:hover, .pagination .arrow:focus {
-      opacity: .6;
-      text-decoration: none; }
-  .pagination .left {
-    left: 0; }
-  .pagination .right {
-    right: 0; }
+.pagination span {
+  color: #353535;
+  font-size: 1.1rem; }
+
+.pagination .top {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #000;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  opacity: .6; }
+  .pagination .top:hover {
+    opacity: 1; }
+
+.pagination .arrow {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #000;
+  position: absolute; }
+  .pagination .arrow:hover, .pagination .arrow:focus {
+    opacity: .6;
+    text-decoration: none; }
+
+.pagination .left {
+  left: 0; }
+
+.pagination .right {
+  right: 0; }
 
 .catalogue .post-hero {
   margin-bottom: 0;
@@ -1131,7 +1135,8 @@ pre code {
     width: 70vw;
     margin-left: 30vw; }
     .catalogue .post-hero {
-      height: auto; }
+      height: auto;
+      width: 100%; }
     .catalogue .catalogue-item {
       display: flex;
       height: 33.3333vh;

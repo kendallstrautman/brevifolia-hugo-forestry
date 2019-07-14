@@ -1,4 +1,11 @@
 		<footer>
+				{{- if .Params.Author }}
+				<span>{{ i18n "writtenBy" }}</span>
+						{{ .Params.Author }}
+				{{- else }}
+				<span>{{ i18n "writtenBy" }}</span>
+						{{ .Site.Params.Author }}
+				{{- end }}
 			<span>
 			&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}
 			</span>

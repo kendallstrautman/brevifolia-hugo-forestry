@@ -29,7 +29,6 @@
   }
   &-title {
     margin-bottom: .5rem ;
-    // padding: 1.5rem 1.25rem 1.25rem;
   }
   &-summary {
     margin-bottom: 0;
@@ -42,6 +41,7 @@
     margin-left: 30vw;
     .post-hero {
       height: auto;
+      width: 100%;
     }
     .catalogue-item {
       display: flex;
