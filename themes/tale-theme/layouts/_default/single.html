@@ -8,20 +8,20 @@
 			{{ partial "single/post-info.html" . }}
 		</div>
 		{{ .Content }}
-	</div>
-	<div class="post__footer">
-			{{- if .Params.Author }}
-				<h2>
-					<span>{{ i18n "writtenBy" }}</span>
-							{{ .Params.Author }}
-				</h2>
-			{{- end }}
-			{{- if .PrevPage }}
-			<a class="pagination" href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8594;</a>
-			{{- end }}
-			<!-- {{- if .NextPage }}
-			<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
-			{{- end }} -->
+		<div class="post__footer">
+				{{- if .Params.Author }}
+					<h2>
+						<span>{{ i18n "writtenBy" }}</span>
+								{{ .Params.Author }}
+					</h2>
+				{{- end }}
+				{{- if .PrevPage }}
+				<a class="pagination" href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8594;</a>
+				{{- end }}
+				<!-- {{- if .NextPage }}
+				<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+				{{- end }} -->
+		</div>
 	</div>
 </main>
 

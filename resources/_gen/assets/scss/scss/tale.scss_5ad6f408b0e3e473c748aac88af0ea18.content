@@ -780,7 +780,18 @@ pre code {
 @media (min-width: 768px) {
   .post {
     width: 70vw;
-    margin-left: 30vw; } }
+    margin-left: 30vw; }
+    .post p {
+      padding: 0 2rem;
+      max-width: 800px;
+      margin: 0 auto 1.45rem auto; }
+    .post__footer {
+      max-width: 800px;
+      padding: 1rem 2rem 3rem 2rem;
+      margin: 0 auto; } }
+
+.info__post {
+  padding: 1.5rem 1.25rem; }
 
 .highlight .hll {
   background-color: #ffc; }

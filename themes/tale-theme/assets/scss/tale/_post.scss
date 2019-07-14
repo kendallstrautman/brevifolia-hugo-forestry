@@ -1,5 +1,4 @@
 .post {
-
   &-hero {
     width: 100%;
     margin: 0;
@@ -45,15 +44,6 @@
     text-decoration: underline;
   }
 
-  // img + em {
-  //   color: $default-tint;
-  //   display: block;
-  //   font-family: $sans-serif;
-  //   font-size: 0.9rem;
-  //   font-style: normal;
-  //   text-align: center;
-  // }
-
   // CSS for making emoji inline
   img.emoji {
     display: inline-block;
@@ -71,5 +61,18 @@
   .post {
     width: 70vw;
     margin-left: 30vw;
+    &__all-info {
+
+    }
+    p {
+      padding: 0 2rem;
+      max-width: 800px;
+      margin: 0 auto 1.45rem auto;
+    }
+    &__footer {
+      max-width: 800px;
+      padding: 1rem 2rem 3rem 2rem;
+      margin: 0 auto;
+    }
   }
 }
