@@ -76,6 +76,7 @@ p {
   }
 
   p {
+    font-size: 1rem;
     line-height: 1.4375;
   }
 }
@@ -99,10 +100,13 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  opacity: 1;
+  transition: opacity .2s ease;
 }
 
 a:hover {
-  text-decoration: line-through;
+  opacity: .5;
+  transition: opacity .2s ease;
   text-decoration-color: inherit;
 }
 

@@ -1,10 +1,12 @@
 <a href="{{ .Permalink }}" class="catalogue-item">
-    <div>
         {{ partial "single/hero.html" . }}
-            <h2 class="catalogue-title">{{ .Title }}</h2>
-            <h3><time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time></h3>
-            <p class="catalogue-summary">
-                {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
-            </p>
+    <div class="catalogue-info">  
+        <h2 class="catalogue-title">{{ .Title }}</h2>
+        <h3 class="catalogue-time">
+            {{ i18n "publishdate" . }}
+        </h3>
+        <p class="catalogue-summary">
+            {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
+        </p>
     </div>
 </a>

@@ -8,35 +8,92 @@
     img {
       margin-bottom: 0;
       object-fit: cover;
-      width: 100%;
+      min-width: 100%;
+      height: 100%;
+      object-position: 50% 50%;
+      opacity: 1;
+      transition: opacity .3s ease;
     }
   }
   &-item {
-    border-bottom: 1px solid $white-2;
     display: block;
+    min-height: 38vh;
   }
-  h3 {
-    margin-bottom: 0;
-  }
-  &-time, &-title, &-summary {
-    padding: 0 1.25rem;
+  &-info {
+    border-bottom: 1px solid $white-2;
+    padding: 1.5rem 1.25rem;
   }
   &-time {
     display: block;
     margin-bottom: 1rem;
   }
   &-title {
-    margin-bottom: 0;
-    padding: 1.5rem 1.25rem .5rem 1.25rem;
+    margin-bottom: .5rem ;
+    // padding: 1.5rem 1.25rem 1.25rem;
   }
   &-summary {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
   .catalogue {
-    width: 65vw;
-    margin-left: 35vw;
+    width: 70vw;
+    margin-left: 30vw;
+    .post-hero {
+      height: auto;
+    }
+    .catalogue-item {
+      display: flex;
+      height: 33.3333vh;
+      min-height: 0;
+    }
+    &-info {
+      min-width: 70%;
+      padding: 3rem;
+      h2, h3, p {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px) ;
+        -webkit-transition: transform .5s ease-out;
+        transition: transform .5s ease-out;
+      }
+    }
+    a:hover {
+      opacity: 1;
+      .post-hero {
+        img {
+          opacity: .8;
+          -webkit-transition: opacity .3s ease;
+          transition: opacity .3s ease;
+        }
+      }
+      .catalogue-info {
+        h2, h3, p {
+          -webkit-transform: translateX(10px);
+          transform: translateX(10px) ;
+          -webkit-transition: transform .5s ease-out;
+          transition: transform .5s ease-out;
+        }
+      }
+    }
   }
 }
+
+
+// a:hover {
+//   opacity: 1;
+//   li {
+//     div.hero_image {
+//       img {
+//         opacity: .8;
+//         transition: opacity .3s ease; 
+//       }
+//     }
+//     div.blog__info {
+//       h2, h3, p {
+//         transform: translateX(10px) ;
+//         transition: transform .5s ease-out;
+//       }
+      
+//     }
+//   }
