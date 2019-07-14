@@ -1,21 +1,36 @@
 .catalogue {
+  .post-hero {
+    margin-bottom: 0;
+    width: 100%;
+    height: 33vh;
+    overflow: hidden;
+    background-color: #000;
+    img {
+      margin-bottom: 0;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
   &-item {
-    border-bottom: 2px solid $default-color;
+    border-bottom: 1px solid $white-2;
     display: block;
-    padding: 1.5rem;
-    
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  &-time, &-title, &-summary {
+    padding: 0 1.25rem;
   }
   &-time {
-    font-size: 1.5rem;
-    font-weight: 500;
     display: block;
     margin-bottom: 1rem;
   }
   &-title {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    padding: 1.5rem 1.25rem .5rem 1.25rem;
   }
   &-summary {
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
   }
 }
 

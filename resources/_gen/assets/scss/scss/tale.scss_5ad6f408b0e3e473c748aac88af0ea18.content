@@ -1,4 +1,5 @@
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -623,26 +624,59 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Work Sans","Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
   color: #000; }
 
 body {
   -webkit-text-size-adjust: 100%; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #000;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.3; }
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Work Sans","Helvetica Neue", Helvetica, sans-serif; }
+
+h1, h2 {
+  font-weight: 500; }
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  line-height: 1.1875; }
+
+h2 {
+  font-size: 1.7rem;
+  letter-spacing: -.75px;
+  line-height: 1.2; }
+
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: -.5px;
+  line-height: 1.1875;
+  color: #A0A0A0;
+  font-weight: normal; }
 
 p {
-  font-size: 1.075rem; }
+  font-size: 1.2rem;
+  letter-spacing: -.5px;
+  line-height: 1.5;
+  color: #464646; }
+
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    line-height: 1.1875; }
+  h2 {
+    font-size: 1.5rem;
+    letter-spacing: -.75px;
+    line-height: 1.1667; }
+  h3 {
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    line-height: 1.1875;
+    color: #A0A0A0;
+    font-weight: normal; }
+  p {
+    line-height: 1.4375; } }
 
 a {
   text-decoration: none;
@@ -661,7 +695,7 @@ code {
   font-family: Menlo, Monaco, monospace; }
 
 code {
-  background-color: #f9f9f9;
+  background-color: #404040;
   border-radius: 3px;
   color: #bf616a;
   font-size: 85%;
@@ -677,7 +711,7 @@ pre code {
   padding: 0; }
 
 .highlight {
-  background-color: #f9f9f9;
+  background-color: #404040;
   border-radius: 3px;
   line-height: 1.4;
   margin: 0 0 1rem;
@@ -994,18 +1028,16 @@ pre code {
   width: 80%; }
 
 .nav {
-  border-bottom: 2px solid #000;
-  padding: 1.5rem; }
+  border-bottom: 1px solid #EBEBEB;
+  padding: 1.5rem 1.25rem; }
+  .nav h1 {
+    margin-bottom: 0; }
   .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center; }
   .nav-title {
     margin: 0; }
-  .nav li {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 0; }
 
 @media (min-width: 768px) {
   .nav {
@@ -1015,7 +1047,7 @@ pre code {
     top: 0;
     padding: 2rem;
     width: 35vw;
-    border-right: 2px solid #000;
+    border-right: 1px solid #EBEBEB;
     border-bottom: none;
     flex-direction: column;
     align-items: flex-start; }
@@ -1025,7 +1057,7 @@ pre code {
       align-items: flex-start; } }
 
 .pagination {
-  border-top: 0.5px solid #e5e5e5;
+  border-top: 0.5px solid #464646;
   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   padding-top: 2rem;
   position: relative;
@@ -1057,22 +1089,37 @@ pre code {
   .pagination .right {
     right: 0; }
 
+.catalogue .post-hero {
+  margin-bottom: 0;
+  width: 100%;
+  height: 33vh;
+  overflow: hidden;
+  background-color: #000; }
+  .catalogue .post-hero img {
+    margin-bottom: 0;
+    object-fit: cover;
+    width: 100%; }
+
 .catalogue-item {
-  border-bottom: 2px solid #000;
-  display: block;
-  padding: 1.5rem; }
+  border-bottom: 1px solid #EBEBEB;
+  display: block; }
+
+.catalogue h3 {
+  margin-bottom: 0; }
+
+.catalogue-time, .catalogue-title, .catalogue-summary {
+  padding: 0 1.25rem; }
 
 .catalogue-time {
-  font-size: 1.5rem;
-  font-weight: 500;
   display: block;
   margin-bottom: 1rem; }
 
 .catalogue-title {
-  margin-bottom: 1rem; }
+  margin-bottom: 0;
+  padding: 1.5rem 1.25rem .5rem 1.25rem; }
 
 .catalogue-summary {
-  margin-bottom: 0; }
+  margin-bottom: 1.5rem; }
 
 @media (min-width: 768px) {
   .catalogue {
