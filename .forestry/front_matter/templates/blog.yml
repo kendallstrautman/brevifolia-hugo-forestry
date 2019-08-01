@@ -15,3 +15,5 @@ fields:
 - type: file
   name: hero
   label: hero
+pages:
+- content/blog-posts/test/test.md
