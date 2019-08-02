@@ -11,6 +11,8 @@ fields:
 - type: text
   name: type
   label: type
+  default: about
+  hidden: true
 - name: contact_info
   type: field_group
   config: {}
