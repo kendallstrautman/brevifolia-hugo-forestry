@@ -16,8 +16,7 @@ fields:
   name: hero
   label: hero
 pages:
+- content/blog-posts/hugo-notes.md
 - content/blog-posts/sample.md
 - content/blog-posts/the-mystery-of-mycelium.md
 - content/blog-posts/another-blog copy.md
-- content/blog-posts/hugo-notes.md
-- content/blog-posts/test/test.md
