@@ -1,0 +1,30 @@
+---
+label: Site Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+  default: "/"
+  hidden: true
+- type: text
+  name: languageCode
+  label: languageCode
+  default: en
+- type: text
+  name: title
+  label: title
+  default: The Blog Title
+- type: text
+  name: theme
+  label: theme
+  hidden: true
+- name: primary_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Primary Color
+  description: Choose about page background color
+pages:
+- config.toml

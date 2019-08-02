@@ -16,6 +16,11 @@ sections:
   label: Blog posts
   create: all
   match: "**/*"
+- type: heading
+  label: Config
+- type: document
+  path: config.toml
+  label: Site Info
 upload_dir: images
 public_path: static/images
 front_matter_path: ''
