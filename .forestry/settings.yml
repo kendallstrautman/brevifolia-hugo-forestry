@@ -16,6 +16,12 @@ sections:
   label: Blog posts
   create: all
   match: "**/*"
+- type: heading
+  label: Config
+- type: document
+  path: theme/tale-theme/theme.toml
+  label: Site Info
+  match: "**/*"
 upload_dir: images
 public_path: static/images
 front_matter_path: ''
