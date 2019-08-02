@@ -6,6 +6,8 @@ contact_info:
   twitter_handle: "@forestryio"
   github_handle: "@forestryio"
   email: info@forestry.io
+  twitter_url: https://twitter.com/forestryio
+  github_url: https://github.com/forestryio
 
 ---
 ## This is made with [Forestry](https://forestry.io/ "Forestry.io") & [Hugo](https://gohugo.io/ "Hugo SSG").
