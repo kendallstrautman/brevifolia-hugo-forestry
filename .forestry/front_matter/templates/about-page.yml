@@ -22,12 +22,24 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: twitter_url
+    type: text
+    config:
+      required: false
+    label: Twitter Url
+    description: Enter url to twitter page
   - name: twitter_handle
     type: text
     config:
       required: false
     label: Twitter Handle
     description: Enter Twitter Handle Here
+  - name: github_url
+    type: text
+    config:
+      required: false
+    label: Github Url
+    description: Enter url to github profile
   - name: github_handle
     type: text
     config:
