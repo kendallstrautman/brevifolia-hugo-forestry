@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
     {{ partial "head.html" . }}
-<body >
-        {{ partial "header.html" . }}
-        {{ block "main" . }}{{ end }}
-    </body>
+    {{ $aboutTitle := "About" }}
+    {{if (eq .Title $aboutTitle) }}
+        {{ $bg := .Params.primary_color}}
+        <body style="background-color: {{ $bg }} ;">
+            {{ partial "header.html" . }}
+            {{ block "main" . }}{{ end }}
+        </body>
+    {{ else }}
+        <body >
+            {{ partial "header.html" . }}
+            {{ block "main" . }}{{ end }}
+        </body>
+    {{ end }}
 </html>
