@@ -791,7 +791,8 @@ pre code {
       margin: 0 auto; } }
 
 .info__post {
-  padding: 1.5rem 1.25rem; }
+  padding: 1.5rem 1.25rem;
+  margin-left: 30vw; }
 
 .highlight .hll {
   background-color: #ffc; }
