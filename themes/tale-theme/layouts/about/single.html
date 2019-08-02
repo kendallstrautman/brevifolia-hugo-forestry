@@ -6,19 +6,19 @@
 		<ul>
 				<li>
 					<h2>
-						<a href="">Email: info@forestry.io</a>
+						<a href="mailto:{{.Params.contact_info.email}}">Email: {{ .Params.contact_info.email }}</a>
 					</h2>
 				</li>
 				<li>
 					<h2>
-						<a href="">
-							Twitter: @forestryio
+						<a href="https://twitter.com/{{.Params.contact_info.twitter_handle}}">
+							Twitter: @{{.Params.contact_info.twitter_handle}}
 						</a>
 					</h2>
 				</li>
 				<li>
 					<h2>
-						<a href="">Github: forestryio</a>
+						<a href="https://github.com/{{.Params.contact_info.github_handle }}">Github: {{.Params.contact_info.github_handle }}</a>
 					</h2>
 				</li>
 			</ul>
