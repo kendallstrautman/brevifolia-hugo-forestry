@@ -21,7 +21,6 @@ sections:
 - type: document
   path: config.toml
   label: Site Info
-  match: "**/*"
 upload_dir: images
 public_path: static/images
 front_matter_path: ''
