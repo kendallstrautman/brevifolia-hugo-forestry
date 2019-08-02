@@ -8,6 +8,6 @@ contact_info:
   email: info@forestry.io
 
 ---
-<h2>This is made with <a href="https://forestry.io">Forestry</a> & <a href="https://gohugo.io">Hugo.</a> <br><br>
+## This is made with [Forestry](https://forestry.io/ "Forestry.io") & [Hugo](https://gohugo.io/ "Hugo SSG").
 
-To get started, import this site into Forestry or checkout the repository <a href={https://github.com/kendallstrautman/starter-blog-hugo}>here</a>.</h2>
+## To get started, import this site into Forestry or checkout the repository [here](https://github.com/kendallstrautman/starter-blog-hugo "forestry starter blog hugo").
