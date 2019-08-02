@@ -12,6 +12,8 @@ fields:
 - type: text
   name: type
   label: type
+  default: blog
+  hidden: true
 - type: file
   name: hero
   label: hero
