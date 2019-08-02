@@ -11,3 +11,34 @@ fields:
 - type: text
   name: type
   label: type
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
+  description: Choose background color here
+- name: contact_info
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter_handle
+    type: text
+    config:
+      required: false
+    label: Twitter Handle
+    description: Enter Twitter Handle Here
+  - name: github_handle
+    type: text
+    config:
+      required: false
+    label: Github Handle
+    description: Enter github handle here
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+    description: Enter contact email here
+  label: contact info
+  description: Enter contact info here
