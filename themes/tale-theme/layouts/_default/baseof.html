@@ -3,8 +3,8 @@
     {{ partial "head.html" . }}
     {{ $aboutTitle := "About" }}
     {{if (eq .Title $aboutTitle) }}
-        {{ $bg := .Params.primary_color}}
-        <body style="background-color: {{ $bg }} ;">
+        {{ $bg := .Site.Params.primary_color}}
+        <body style="background-color: {{ $bg }}; color: #fff;">
             {{ partial "header.html" . }}
             {{ block "main" . }}{{ end }}
         </body>
