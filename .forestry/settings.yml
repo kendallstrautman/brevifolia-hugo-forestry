@@ -19,7 +19,7 @@ sections:
 - type: heading
   label: Config
 - type: document
-  path: theme/tale-theme/theme.toml
+  path: config.toml
   label: Site Info
   match: "**/*"
 upload_dir: images
