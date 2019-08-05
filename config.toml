@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
+primary_color = "#B1BCBC"
 theme = "tale-theme"
 title = "The Blog Title"
 [params]
-    primary_color = "#C3E1D4"
+primary_color = "#C3E1D4"
