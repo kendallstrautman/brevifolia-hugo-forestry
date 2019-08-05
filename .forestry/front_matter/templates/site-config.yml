@@ -19,12 +19,5 @@ fields:
   name: theme
   label: theme
   hidden: true
-- name: primary_color
-  type: color
-  config:
-    required: false
-    color_format: Hex
-  label: Primary Color
-  description: Choose about page background color
 pages:
 - config.toml
