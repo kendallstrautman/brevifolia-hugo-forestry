@@ -1,0 +1,7 @@
+---
+label: Design Settings
+hide_body: true
+fields:
+- type: text
+  name: primary_color
+  label: primary_color
