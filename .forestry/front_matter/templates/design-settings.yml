@@ -10,3 +10,5 @@ fields:
     color_format: Hex
   description: Adjust the background color of the About Page
   default: "#B1BCBC"
+pages:
+- themes/tale-theme/data/Settings.toml
