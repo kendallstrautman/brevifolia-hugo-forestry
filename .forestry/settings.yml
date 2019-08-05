@@ -21,7 +21,6 @@ sections:
 - type: document
   path: themes/data/Settings.toml
   label: Design Settings
-  match: "**/*"
 - type: document
   path: config.toml
   label: Site Info
