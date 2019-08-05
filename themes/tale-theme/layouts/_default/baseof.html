@@ -3,7 +3,7 @@
     {{ partial "head.html" . }}
     {{ $aboutTitle := "About" }}
     {{if (eq .Title $aboutTitle) }}
-        {{ $bg := .Site.Params.primary_color}}
+        {{ $bg := .Site.Data.Settings.primary_color}}
         <body style="background-color: {{ $bg }}; color: #fff;">
             {{ partial "header.html" . }}
             {{ block "main" . }}{{ end }}
