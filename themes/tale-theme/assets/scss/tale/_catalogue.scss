@@ -46,6 +46,7 @@
     .catalogue-item {
       display: flex;
       height: 33.3333vh;
+      overflow: hidden;
       min-height: 0;
     }
     &-info {

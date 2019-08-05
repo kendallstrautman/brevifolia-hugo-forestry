@@ -1152,6 +1152,7 @@ pre code {
     .catalogue .catalogue-item {
       display: flex;
       height: 33.3333vh;
+      overflow: hidden;
       min-height: 0; }
     .catalogue-info {
       min-width: 70%;
