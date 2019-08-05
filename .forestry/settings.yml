@@ -19,7 +19,7 @@ sections:
 - type: heading
   label: Config
 - type: document
-  path: themes/data/Settings.toml
+  path: themes/tale-theme/data/Settings.toml
   label: Design Settings
 - type: document
   path: config.toml
