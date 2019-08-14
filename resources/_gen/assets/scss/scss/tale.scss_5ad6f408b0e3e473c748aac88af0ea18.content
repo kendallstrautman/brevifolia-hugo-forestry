@@ -1155,6 +1155,9 @@ pre code {
       overflow: hidden;
       min-height: 0; }
     .catalogue-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       min-width: 70%;
       padding: 3rem; }
       .catalogue-info h2, .catalogue-info h3, .catalogue-info p {

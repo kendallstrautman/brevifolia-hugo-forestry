@@ -50,6 +50,9 @@
       min-height: 0;
     }
     &-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       min-width: 70%;
       padding: 3rem;
       h2, h3, p {
@@ -79,22 +82,3 @@
     }
   }
 }
-
-
-// a:hover {
-//   opacity: 1;
-//   li {
-//     div.hero_image {
-//       img {
-//         opacity: .8;
-//         transition: opacity .3s ease; 
-//       }
-//     }
-//     div.blog__info {
-//       h2, h3, p {
-//         transform: translateX(10px) ;
-//         transition: transform .5s ease-out;
-//       }
-      
-//     }
-//   }
