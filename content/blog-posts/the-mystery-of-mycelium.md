@@ -1,7 +1,7 @@
 +++
 author = "Ralph Waldo Emerson"
 date = "2019-08-03T07:00:00+00:00"
-hero = "/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg"
+hero = "/images/ruslan-bardash-g83y6do219w-unsplash.jpg"
 title = "Essay on Self Reliance"
 type = "blog"
 
@@ -12,6 +12,6 @@ I read the other day some verses written by an eminent painter which were origin
 
 There is a time in every man’s education when he arrives at the conviction that envy is ignorance; that imitation is suicide; that he must take himself for better, for worse, as his portion; that though the wide universe is full of good, no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till. The power which resides in him is new in nature, and none but he knows what that is which he can do, nor does he know until he has tried. Not for nothing one face, one character, one fact, makes much impression on him, and another none. This sculpture in the memory is not without preestablished harmony. The eye was placed where one ray should fall, that it might testify of that particular ray. We but half express ourselves, and are ashamed of that divine idea which each of us represents. It may be safely trusted as proportionate and of good issues, so it be faithfully imparted, but God will not have his work made manifest by cowards. A man is relieved and gay when he has put his heart into his work and done his best; but what he has said or done otherwise, shall give him no peace. It is a deliverance which does not deliver. In the attempt his genius deserts him; no muse befriends; no invention, no hope.
 
-![](/images/olia-bondarenko-wgrNfwACf4k-unsplash.jpg)
+![](/images/anomaly-oRskqiH7FNc-unsplash.jpg)
 
 Trust thyself: every heart vibrates to that iron string. Accept the place the divine providence has found for you, the society of your contemporaries, the connection of events. Great men have always done so, and confided themselves childlike to the genius of their age, betraying their perception that the absolutely trustworthy was seated at their heart, working through their hands, predominating in all their being. And we are now men, and must accept in the highest mind the same transcendent destiny; and not minors and invalids in a protected corner, not cowards fleeing before a revolution, but guides, redeemers, and benefactors, obeying the Almighty effort, and advancing on Chaos and the Dark.
