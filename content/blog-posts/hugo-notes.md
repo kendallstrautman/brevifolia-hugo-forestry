@@ -3,7 +3,7 @@ title: An Essay on Walking
 date: 2019-07-11T20:11:17.000+00:00
 type: blog
 author: Henry Thoreau
-hero: "/images/olia-bondarenko-wgrNfwACf4k-unsplash.jpg"
+hero: "/images/asgeir-pall-juliusson--90kxRqKSmc-unsplash.jpg"
 
 ---
 Then it is that I appreciate the beauty and the glory of architecture, which itself never turns in, but forever stands out and erect, keeping watch over the slumberers.
