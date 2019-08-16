@@ -69,7 +69,6 @@ p {
   }
   
   h3 {
-    font-size: 1rem;
     letter-spacing: -.5px;
     line-height: 1.1875;
     color: #A0A0A0;
@@ -77,26 +76,9 @@ p {
   }
 
   p {
-    font-size: 1rem;
     line-height: 1.4375;
   }
 }
-
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   color: $default-color;
-//   font-weight: 500;
-//   font-size: 1.5rem;
-//   line-height: 1.3;
-// }
-
-// p {
-//   font-size: 1.075rem;
-// }
 
 a {
   text-decoration: none;
@@ -115,28 +97,3 @@ ul {
   list-style: none;
   margin: 0;
 }
-
-// blockquote {
-//   // border-left: .25rem solid $grey-2;
-//   // color: $grey-1;
-//   // margin: .8rem 0;
-//   // padding: .5rem 1rem;
-
-//   // p:last-child {
-//   //   margin-bottom: 0;
-//   // }
-
-//   // @media (min-width: 600px) {
-//   //   padding: 0 5rem 0 1.25rem;
-//   // }
-// }
-
-// img {
-//   display: block;
-//   margin: 0 0 1rem;
-//   max-width: 100%;
-// }
-
-// td {
-//   vertical-align: top;
-// }
