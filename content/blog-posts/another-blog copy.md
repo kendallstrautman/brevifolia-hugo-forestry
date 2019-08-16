@@ -24,7 +24,7 @@ and the gray Sunflower poised against the sunset, crackly bleak and dusty with t
 
 corolla of bleary spikes pushed down and broken like a battered crown, seeds fallen out of its face, soon-to-be-toothless mouth of sunny air, sunrays obliterated on its hairy head like a dried wire spiderweb,
 
-### "the gray Sunflower poised against the sunset, crackly bleak and dusty with the smut and smog and smoke of olden locomotives in its eye"
+## "the gray Sunflower poised against the sunset, crackly bleak and dusty with the smut and smog and smoke of olden locomotives in its eye"
 
 leaves stuck out like arms out of the stem, gestures from the sawdust root, broke pieces of plaster fallen out of the black twigs, a dead fly in its ear,
 
@@ -50,7 +50,7 @@ You were never no locomotive, Sunflower, you were a sunflower!
 
 And you Locomotive, you are a locomotive, forget me not!
 
-### "a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!"
+## "a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!"
 
 So I grabbed up the skeleton thick sunflower and stuck it at my side like a scepter,
 
