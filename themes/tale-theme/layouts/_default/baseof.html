@@ -4,7 +4,8 @@
     {{ $aboutTitle := "About" }}
     {{if (eq .Title $aboutTitle) }}
         {{ $bg := .Site.Data.Settings.primary_color}}
-        <body style="background-color: {{ $bg }}; color: #fff;">
+        {{ $textColor := .Site.Data.Settings.text_color}}
+        <body style="background-color: {{ $bg }}; color: {{ $textColor }};">
             {{ partial "header.html" . }}
             {{ block "main" . }}{{ end }}
         </body>
