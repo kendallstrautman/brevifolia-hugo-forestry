@@ -3,7 +3,7 @@ title: An Essay on Walking
 date: 2019-07-11T20:11:17.000+00:00
 type: blog
 author: ''
-hero: "/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
+hero: "/images/max-ostrozhinskiy-w6OniVDCfn0-unsplash.jpg"
 
 ---
 I have met with but one or two persons in the course of my life who understood the art of Walking, that is, of taking walks,--who had a genius, so to speak, for _sauntering_: which word is beautifully derived "from idle people who roved about the country, in the Middle Ages, and asked charity, under pretence of going _a la Sainte Terre_" to the Holy Land, till the children exclaimed, "There goes a _Sainte-Terrer_," a Saunterer,--a Holy-Lander. They who never go to the Holy Land in their walks, as they pretend, are indeed mere idlers and vagabonds; but they who do go there are saunterers in the good sense, such as I mean. Some, however, would derive the word from _sans terre_, without land or a home, which, therefore, in the good sense, will mean, having no particular home, but equally at home everywhere. For this is the secret of successful sauntering. He who sits still in a house all the time may be the greatest vagrant of all; but the saunterer, in the good sense, is no more vagrant than the meandering river, which is all the while sedulously seeking the shortest course to the sea. But I prefer the first, which, indeed, is the most probable derivation. For every walk is a sort of crusade, preached by some Peter the Hermit in us, to go forth and reconquer this Holy Land from the hands of the Infidels.
