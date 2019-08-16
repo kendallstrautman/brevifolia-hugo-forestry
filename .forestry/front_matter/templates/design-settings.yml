@@ -4,11 +4,18 @@ hide_body: true
 fields:
 - name: primary_color
   type: color
-  label: Primary Color
+  label: Info Page - Background Color
   config:
     required: false
     color_format: Hex
   description: Adjust the background color of the About Page
   default: "#B1BCBC"
+- name: text_color
+  type: color
+  label: Info Page - Text Color
+  config:
+    required: false
+    color_format: Hex
+  description: Enter text color for info page
 pages:
 - themes/tale-theme/data/Settings.toml
