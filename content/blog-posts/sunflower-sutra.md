@@ -8,11 +8,11 @@ author: Allen Ginsberg
 ---
 I walked on the banks of the tincan banana dock and sat down under the huge shade of a Southern Pacific locomotive to look for the sunset over the box house hills and cry.
 
+![](/images/william-santos-OFpmxNK3l6U-unsplash.jpg)
+
 Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought the same thoughts of the soul, bleak and blue and sad-eyed, surrounded by the gnarled steel roots of trees of machinery.
 
 The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
-
-![](/images/lucas-silva-pinheiro-santos-mpVzB3421lk-unsplash.jpg)
 
 Look at the Sunflower, he said, there was a dead gray shadow against the sky, big as a man, sitting dry on top of a pile of ancient sawdust--
 
@@ -38,22 +38,4 @@ and those blear thoughts of death and dusty loveless eyes and ends and withered 
 
 entangled in your mummied roots--and you standing before me in the sunset, all your glory in your form!
 
- ![](/images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg)
-
 A perfect beauty of a sunflower! a perfect excellent lovely sunflower existence! a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!
-
-How many flies buzzed round you innocent of your grime, while you cursed the heavens of your railroad and your flower soul?
-
-Poor dead flower? when did you forget you were a flower? when did you look at your skin and decide you were an impotent dirty old locomotive? the ghost of a locomotive? the specter and shade of a once powerful mad American locomotive?
-
-You were never no locomotive, Sunflower, you were a sunflower!
-
-And you Locomotive, you are a locomotive, forget me not!
-
-## "a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!"
-
-So I grabbed up the skeleton thick sunflower and stuck it at my side like a scepter,
-
-and deliver my sermon to my soul, and Jack's soul too, and anyone who'll listen,
-
-\--We're not our skin of grime, we're not our dread bleak dusty imageless locomotive, we're all golden sunflowers inside, blessed by our own seed & hairy naked accomplishment-bodies growing into mad black formal sunflowers in the sunset, spied on by our eyes under the shadow of the mad locomotive riverbank sunset Frisco hilly tincan evening sitdown vision.
