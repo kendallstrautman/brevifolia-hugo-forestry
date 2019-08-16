@@ -30,7 +30,7 @@ leaves stuck out like arms out of the stem, gestures from the sawdust root, brok
 
 Unholy battered old thing you were, my sunflower O my soul, I loved you then!
 
-![](/images/steven-coffey-_U_Fzg1ibNY-unsplash.jpg)
+![](/images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg)
 
 The grime was no man's grime but death and human locomotives,
 
