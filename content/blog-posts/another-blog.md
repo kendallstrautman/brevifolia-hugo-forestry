@@ -7,7 +7,8 @@ author: Walt Whitman
 
 ---
 I have heard what the talkers were talking, the talk of the  
-beginning and the end  
+beginning and the end 
+
 But I do not talk of the beginning or the end.  
 There was never any more inception than there is now,  
 Nor any more youth or age than there is now,  
