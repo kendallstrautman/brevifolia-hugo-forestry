@@ -12,7 +12,7 @@ Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought th
 
 The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
 
-![sunflower-lucas-silva](/static/images/lucas-silva-pinheiro-santos-mpVzB3421lk-unsplash.jpg "sunflower-lucas-silva")
+![sunflower-lucas-silva](/images/lucas-silva-pinheiro-santos-mpVzB3421lk-unsplash.jpg "sunflower-lucas-silva")
 
 Look at the Sunflower, he said, there was a dead gray shadow against the sky, big as a man, sitting dry on top of a pile of ancient sawdust--
 
@@ -38,7 +38,7 @@ and those blear thoughts of death and dusty loveless eyes and ends and withered 
 
 entangled in your mummied roots--and you standing before me in the sunset, all your glory in your form!
 
-### ![](/static/images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg)
+### ![](/images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg)
 
 A perfect beauty of a sunflower! a perfect excellent lovely sunflower existence! a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!
 
