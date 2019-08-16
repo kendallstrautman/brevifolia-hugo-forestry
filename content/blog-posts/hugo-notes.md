@@ -3,20 +3,18 @@ title: An Essay on Walking
 date: 2019-07-11T20:11:17.000+00:00
 type: blog
 author: Henry Thoreau
-hero: "/images/asgeir-pall-juliusson--90kxRqKSmc-unsplash.jpg"
+hero: "/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
 
 ---
 Then it is that I appreciate the beauty and the glory of architecture, which itself never turns in, but forever stands out and erect, keeping watch over the slumberers.
 
 No doubt temperament, and, above all, age, have a good deal to do with it. As a man grows older, his ability to sit still and follow indoor occupations increases. He grows vespertinal in his habits as the evening of life approaches, till at last he comes forth only just before sundown, and gets all the walk that he requires in half an hour.
 
-![](/images/christian-chen-KPydzVyWfqg-unsplash.jpg)
+![](/images/olia-bondarenko-wgrNfwACf4k-unsplash.jpg)
 
 But the walking of which I speak has nothing in it akin to taking exercise, as it is called, as the sick take medicine at stated hours,--as the swinging of dumb-bells or chairs; but is itself the enterprise and adventure of the day. If you would get exercise, go in search of the springs of life. Think of a man's swinging dumb-bells for his health, when those springs are bubbling up in far-off pastures unsought by him!
 
 Moreover, you must walk like a camel, which is said to be the only beast which ruminates when walking. When a traveller asked Wordsworth's servant to show him her master's study, she answered, "Here is his library, but his study is out of doors."
-
-Living much out of doors, in the sun and wind, will no doubt produce a certain roughness of character,--will cause a thicker cuticle to grow over some of the finer qualities of our nature, as on the face and hands, or as severe manual labor robs the hands of some of their delicacy of touch. So staying in the house, on the other hand, may produce a softness and smoothness, not to say thinness of skin, accompanied by an increased sensibility to certain impressions. 
 
 ![](/images/kunj-parekh-H69EgivmCjE-unsplash.jpg)
 
