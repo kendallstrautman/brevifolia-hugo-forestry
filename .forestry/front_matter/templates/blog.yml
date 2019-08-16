@@ -13,10 +13,10 @@ fields:
     required: false
     options: []
     source:
-      type: simple
-      section: 
-      file: 
-      path: 
+      type: documents
+      section: authors-list
+      file: content/data/authors.yaml
+      path: authors
   label: Author
   description: Choose author here, add new authors in Authors List
 - type: datetime
