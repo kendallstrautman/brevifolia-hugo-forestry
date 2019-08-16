@@ -1,6 +1,6 @@
 ---
 title: Sunflower Sutra
-date: 2019-07-16T19:17:43+00:00
+date: 2019-07-16T19:17:43.000+00:00
 type: blog
 hero: "/images/test.jpg"
 author: Allen Ginsberg
@@ -12,7 +12,7 @@ Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought th
 
 The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
 
-![sunflower-lucas-silva](/images/lucas-silva-pinheiro-santos-mpVzB3421lk-unsplash.jpg "sunflower-lucas-silva")
+![](/images/nordwood-themes-bp1ydkAtwFI-unsplash.jpg)
 
 Look at the Sunflower, he said, there was a dead gray shadow against the sky, big as a man, sitting dry on top of a pile of ancient sawdust--
 
