@@ -17,7 +17,6 @@ sections:
 - type: document
   path: content/data/authors.yaml
   label: Authors List
-  match: "**/*"
 - type: heading
   label: Config
 - type: document

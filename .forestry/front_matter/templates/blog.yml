@@ -4,11 +4,24 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
   default: default
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Author
+  description: Choose author here, add new authors in Authors List
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: type
   label: type
@@ -16,7 +29,7 @@ fields:
   hidden: true
 - type: file
   name: hero
-  label: hero
+  label: Hero Image
 pages:
 - content/blog-posts/hugo-notes.md
 - content/blog-posts/sample.md
