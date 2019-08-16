@@ -26,7 +26,7 @@ sections:
   label: Design Settings
 - type: document
   path: config.toml
-  label: Site Info
+  label: Site Config
 upload_dir: static/images
 public_path: static/images
 front_matter_path: ''
