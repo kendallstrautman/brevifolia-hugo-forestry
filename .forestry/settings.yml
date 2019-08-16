@@ -9,12 +9,6 @@ sections:
 - type: document
   path: content/about/info.md
   label: Info Page
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
 - type: directory
   path: content/blog-posts
   label: Blog posts
