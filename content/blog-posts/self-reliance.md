@@ -1,7 +1,7 @@
 +++
 author = "Ralph Waldo Emerson"
 date = "2019-08-03T07:00:00+00:00"
-hero = "/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
+hero = "/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
 title = "Ne te quaesiveris extra."
 type = "blog"
 
