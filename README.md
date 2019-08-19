@@ -35,7 +35,7 @@ In your terminal, navigate to where you would like this blog to live, then run
 git clone git@github.com:kendallstrautman/brevifolia-hugo-forestry.git
 
 #navigate to the directory
-cd starter-blog-hugo
+cd brevifolia-hugo-forestry
 
 #install dependencies & run dev server with yarn 
 yarn install
