@@ -779,6 +779,8 @@ pre code {
   .post__body p {
     color: #464646;
     font-weight: normal; }
+    .post__body p img {
+      padding: 1rem 0; }
   .post__body ul {
     list-style: initial; }
   .post__body ul, .post__body ol {
