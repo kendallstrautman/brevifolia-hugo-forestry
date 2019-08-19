@@ -770,7 +770,9 @@ pre code {
   .post__body :last-child {
     margin-bottom: 0; }
   .post__body h1, .post__body h2, .post__body h3, .post__body h4, .post__body h5, .post__body h6 {
-    padding: 1.25rem; }
+    padding: 1.5rem;
+    margin-bottom: 1.45rem;
+    line-height: 1.2; }
   .post__body h3 {
     font-size: 1.3rem;
     color: inherit; }
