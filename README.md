@@ -22,7 +22,7 @@ The Hugo version of this Brevifolia starter was built upon the already well-know
 
 #### *Import directly to Forestry*
 
-<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/starter-blog-hugo&engine=hugo&version=0.55.6">
+<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/brevifolia-hugo-forestry&engine=hugo&version=0.55.6">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
@@ -30,7 +30,7 @@ The Hugo version of this Brevifolia starter was built upon the already well-know
 In your terminal, navigate to where you would like this blog to live, then run 
 ```bash
 #clone the repo
-git clone git@github.com:kendallstrautman/starter-blog-hugo.git
+git clone git@github.com:kendallstrautman/brevifolia-hugo-forestry.git
 
 #navigate to the directory
 cd starter-blog-hugo
@@ -66,5 +66,7 @@ You can set up a [remote admin](https://forestry.io/docs/editing/remote-admin/) 
 The [instant preview](https://forestry.io/docs/previews/instant-previews/) method spins up a development server for a long-lived preview that can quickly respond to content updates. When using instant previews, your preview command should be the develop command. The development server spawned by this command should be available over port 8080, and bind to 0.0.0.0.
 
 ## Deploy Options
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kendallstrautman/brevifolia-hugo-forestry)
 
 [Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) is a great way to easily deploy sites. There's no special setup you need to do with Forestry to deploy with Netlify. When Forestry makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
