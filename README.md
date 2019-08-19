@@ -22,7 +22,7 @@ The Hugo version of this Brevifolia starter was built upon the already well-know
 
 #### *Import directly to Forestry*
 
-<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/starter-blog-hugo&engine=hugo&version=0.57.2&config=site">
+<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/starter-blog-hugo&engine=hugo&version=0.57.2">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
