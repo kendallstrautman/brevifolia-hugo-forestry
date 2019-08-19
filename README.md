@@ -45,7 +45,7 @@ hugo serve
 npm install
 hugo serve
 ```
-A new browser window should open with the dev server running or you can navigate to localhost:8000 
+A new browser window should open with the dev server running or you can navigate to localhost:1313 
 
 ## Project Structure 
 
