@@ -1,0 +1,23 @@
+---
+label: Site Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+  default: "/"
+  hidden: true
+- type: text
+  name: languageCode
+  label: languageCode
+  default: en
+- type: text
+  name: title
+  label: title
+  default: The Blog Title
+- type: text
+  name: theme
+  label: theme
+  hidden: true
+pages:
+- config.toml
