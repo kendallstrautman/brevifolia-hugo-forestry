@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: test2
+  label: test
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
