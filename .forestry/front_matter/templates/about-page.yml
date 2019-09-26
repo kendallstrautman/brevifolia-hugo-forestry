@@ -1,0 +1,41 @@
+---
+label: Info Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+  default: about
+  hidden: true
+- name: contact_info
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter_handle
+    type: text
+    config:
+      required: false
+    label: Twitter Handle
+    description: Enter Twitter Handle Here
+  - name: github_handle
+    type: text
+    config:
+      required: false
+    label: Github Handle
+    description: Enter github handle here
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+    description: Enter contact email here
+  label: contact info
+  description: Enter contact info here
+pages:
+- content/about/info.md

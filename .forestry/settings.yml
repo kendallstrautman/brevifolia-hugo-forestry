@@ -5,20 +5,41 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: test2
-upload_dir: static/uploads
-public_path: "/uploads"
+  label: Content
+- type: document
+  path: content/about/info.md
+  label: Info Page
+- type: directory
+  path: content/blog-posts
+  label: Blog posts
+  create: all
+  match: "**/*"
+  templates:
+  - blog
+- type: document
+  path: content/data/authors.yaml
+  label: Authors List
+- type: heading
+  label: Config
+- type: document
+  path: themes/tale-theme/data/Settings.toml
+  label: Design Settings
+- type: document
+  path: config.toml
+  label: Site Config
+upload_dir: static/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.57.1
+  - HUGO_VERSION=0.55.6
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.57.1
+version: 0.55.6
